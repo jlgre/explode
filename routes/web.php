@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::resource('campaigns', App\Http\Controllers\CampaignController::class);
+Route::resource('characters', App\Http\Controllers\CharacterController::class);

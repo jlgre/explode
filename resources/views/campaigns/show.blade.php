@@ -7,5 +7,5 @@
         @method('DELETE')
         <input type="submit" value="Delete">
     </form>
-    <a href="{{ "/campaigns/" . $campaign->id . '/edit' }}">Edit</a>
+    <a href="{{ '/campaigns/' . $campaign->id . '/edit' }}">Edit</a>
 @endsection
